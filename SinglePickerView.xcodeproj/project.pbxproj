@@ -22,6 +22,7 @@
 		AA3C19531883476B00F88B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3C19321883476B00F88B4B /* UIKit.framework */; };
 		AA3C195B1883476B00F88B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3C19591883476B00F88B4B /* InfoPlist.strings */; };
 		AA3C195D1883476B00F88B4B /* SinglePickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3C195C1883476B00F88B4B /* SinglePickerViewTests.m */; };
+		AAD554E7188C720000332B75 /* recipe3_460x316.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD554E6188C720000332B75 /* recipe3_460x316.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AA3C19581883476B00F88B4B /* SinglePickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SinglePickerViewTests-Info.plist"; sourceTree = "<group>"; };
 		AA3C195A1883476B00F88B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA3C195C1883476B00F88B4B /* SinglePickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePickerViewTests.m; sourceTree = "<group>"; };
+		AAD554E6188C720000332B75 /* recipe3_460x316.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = recipe3_460x316.jpg; path = ../../../Documents/recipe3_460x316.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		AA3C19341883476B00F88B4B /* SinglePickerView */ = {
 			isa = PBXGroup;
 			children = (
+				AAD554E6188C720000332B75 /* recipe3_460x316.jpg */,
 				AA3C193D1883476B00F88B4B /* cykAppDelegate.h */,
 				AA3C193E1883476B00F88B4B /* cykAppDelegate.m */,
 				AA3C19401883476B00F88B4B /* Main_iPhone.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA3C19451883476B00F88B4B /* Main_iPad.storyboard in Resources */,
+				AAD554E7188C720000332B75 /* recipe3_460x316.jpg in Resources */,
 				AA3C194A1883476B00F88B4B /* Images.xcassets in Resources */,
 				AA3C19421883476B00F88B4B /* Main_iPhone.storyboard in Resources */,
 				AA3C19391883476B00F88B4B /* InfoPlist.strings in Resources */,
@@ -475,6 +479,7 @@
 				AA3C19621883476B00F88B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA3C19631883476B00F88B4B /* Build configuration list for PBXNativeTarget "SinglePickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +488,7 @@
 				AA3C19651883476B00F88B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

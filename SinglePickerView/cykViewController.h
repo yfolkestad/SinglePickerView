@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface cykViewController : UIViewController
+@interface cykViewController : UIViewController <UIPickerViewDelegate,UIPickerViewDataSource>
+@property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
 
 @end
