@@ -83,9 +83,9 @@
 }
 
 //return the actual entry displayed in the pickerView:
-
--(NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
-    return [_listItems objectAtIndex:(row%10)];
-}
+//
+//-(NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component{
+//    return [_listItems objectAtIndex:(row%10)];
+//}
 
 @end
